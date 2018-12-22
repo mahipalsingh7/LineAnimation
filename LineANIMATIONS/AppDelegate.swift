@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  LineANIMATIONS
 //
-//  Created by india on 21/12/18.
-//  Copyright © 2018 india. All rights reserved.
+//  Created by MAhipal on 21/12/18.
+//  Copyright © 2018 VANDANA. All rights reserved.
 //
 
 import UIKit
