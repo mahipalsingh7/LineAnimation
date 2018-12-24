@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="65G-nf-bt2">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LineANIMATIONS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,7 +20,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="RjH-kt-86P">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9r4-D5-FTw" customClass="FirstPatterView" customModule="LineANIMATIONS" customModuleProvider="target">
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9r4-D5-FTw" customClass="FirstView" customModule="LineANIMATIONS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="220.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1th" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TS5-od-OQl">
@@ -36,7 +36,7 @@
                                             <constraint firstItem="TS5-od-OQl" firstAttribute="top" secondItem="9r4-D5-FTw" secondAttribute="top" constant="10" id="kWM-iQ-mPA"/>
                                         </constraints>
                                     </view>
-                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Irv-ad-4Ex" customClass="ThirdPatterView" customModule="LineANIMATIONS" customModuleProvider="target">
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Irv-ad-4Ex" customClass="ThirdView" customModule="LineANIMATIONS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="223.5" width="375" height="220"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3th" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hp2-yV-A45">
@@ -52,7 +52,7 @@
                                             <constraint firstItem="hp2-yV-A45" firstAttribute="top" secondItem="Irv-ad-4Ex" secondAttribute="top" id="LlX-xK-9wB"/>
                                         </constraints>
                                     </view>
-                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wh0-l7-toX" customClass="FourthPatterView" customModule="LineANIMATIONS" customModuleProvider="target">
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wh0-l7-toX" customClass="FourthView" customModule="LineANIMATIONS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="446.5" width="375" height="220.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4th" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOD-Vp-jS5">
@@ -83,7 +83,114 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="122.78860569715144"/>
+            <point key="canvasLocation" x="-170" y="120"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lJD-dx-vY9">
+            <objects>
+                <viewController id="65G-nf-bt2" customClass="ViewController" customModule="LineANIMATIONS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nkd-ll-uPD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YQS-6H-lya" customClass="MixedView" customModule="LineANIMATIONS" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="clearLine">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="firstPatterColor">
+                                        <color key="value" red="0.99933844800000005" green="0.54361605639999999" blue="0.001362272887" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fourthPatternColor">
+                                        <color key="value" red="0.93419557809999998" green="0.99108189339999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="thirdPatter">
+                                        <color key="value" red="0.034256991000000001" green="0.95911985639999997" blue="0.93174815180000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="FinalPatternColor">
+                                        <color key="value" red="0.23529411759999999" green="0.72549019609999998" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineSpacingInView">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="totalSpokesinVIew">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="TopRight" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTopRight" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zsr-nd-mjO" customClass="MixedView" customModule="LineANIMATIONS" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="397" width="375" height="270"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="clearLine">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="firstPatterColor">
+                                        <color key="value" red="0.99933844800000005" green="0.54361605639999999" blue="0.001362272887" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fourthPatternColor">
+                                        <color key="value" red="0.93419557809999998" green="0.99108189339999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="thirdPatter">
+                                        <color key="value" red="0.034256991000000001" green="0.95911985639999997" blue="0.93174815180000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="FinalPatternColor">
+                                        <color key="value" red="0.23529411759999999" green="0.72549019609999998" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineSpacingInView">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="totalSpokesinVIew">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTopRight" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YQS-6H-lya" secondAttribute="trailing" id="0Ci-wc-sJb"/>
+                            <constraint firstItem="YQS-6H-lya" firstAttribute="width" secondItem="Nkd-ll-uPD" secondAttribute="width" id="8Ms-bY-Gay"/>
+                            <constraint firstItem="YQS-6H-lya" firstAttribute="top" secondItem="Nkd-ll-uPD" secondAttribute="top" id="B41-ln-jQA"/>
+                            <constraint firstAttribute="bottom" secondItem="zsr-nd-mjO" secondAttribute="bottom" id="Hq1-Ue-94r"/>
+                            <constraint firstItem="YQS-6H-lya" firstAttribute="height" secondItem="Nkd-ll-uPD" secondAttribute="height" multiplier="270:667" id="Sxb-Re-qgC"/>
+                            <constraint firstItem="zsr-nd-mjO" firstAttribute="width" secondItem="YQS-6H-lya" secondAttribute="width" id="h49-k8-XEY"/>
+                            <constraint firstItem="zsr-nd-mjO" firstAttribute="leading" secondItem="Nkd-ll-uPD" secondAttribute="leading" id="r8N-c6-rS9"/>
+                            <constraint firstItem="zsr-nd-mjO" firstAttribute="height" secondItem="YQS-6H-lya" secondAttribute="height" id="wAH-GG-4R4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Rfk-un-Av5"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="clearLine">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="firstPatterColor">
+                                <color key="value" red="0.99933844804763794" green="0.54361605644226074" blue="0.0013622728874906898" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="fourthPatternColor">
+                                <color key="value" red="0.93419557809829712" green="0.99108189344406128" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="thirdPatter">
+                                <color key="value" red="0.034256990998983383" green="0.95911985635757446" blue="0.9317481517791748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="FinalPatternColor">
+                                <color key="value" red="0.23529411759999999" green="0.72549019609999998" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="lineSpacingInView">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="totalSpokesinVIew">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CpT-fR-1Wh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="508" y="127.28635682158921"/>
         </scene>
     </scenes>
 </document>
